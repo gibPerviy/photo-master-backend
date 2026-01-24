@@ -10,3 +10,8 @@
 //   @IsString()
 //   breed: string
 // }
+
+export class CreateUserDto {
+  id: number
+  full_name: string
+}
